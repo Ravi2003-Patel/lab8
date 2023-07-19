@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Create Your Own Hamburger</title>
+  <link rel="stylesheet" href="style.css" />
+  <script type="text/javascript" src="lab8.js"></script>
+</head>
+<body>
+  <h1>Create Your Own Hamburger</h1>
+
+  <div class="container">
+    <div class="image-container">
+      <!-- Placeholder image for the hamburger -->
+      <img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/Emoji_u1f354.svg" alt="Hamburger Image">
+      <!-- ‘Hamburger’ – A colored Emoji from Noto project By Google - https://github.com/googlei18n/notoemoji/blob/f2a4f72/svg/emoji_u1f354.svg, Apache License 2.0, -->
+    </div>
+
+    <!-- Option for buns -->
+    <div class="option">
+      <label for="buns">Buns:</label>
+      <input type="text" id="buns">
+    </div>
+
+    <!-- Option for garnish -->
+    <div class="option">
+      <label for="garnish">Garnish:</label>
+      <input type="text" id="garnish">
+    </div>
+
+    <!-- Option for cheese -->
+    <div class="option">
+      <label for="cheese">Cheese:</label>
+      <input type="text" id="cheese">
+    </div>
+
+    <!-- Option for sauce -->
+    <div class="option">
+      <label for="sauce">Sauce:</label>
+      <input type="text" id="sauce">
+    </div>
+
+    <!-- Option for patty -->
+    <div class="option">
+      <label for="patty">Patty:</label>
+      <input type="text" id="patty">
+    </div>
+
+    <!-- Option for number of patties -->
+    <div class="option">
+      <label for="patties">Number of Patties:</label>
+      <input type="number" id="patties" min="1" value="1">
+    </div>
+
+    <!-- Option for additional toppings -->
+    <div class="option">
+      <label for="additionalToppings">Additional Toppings (comma-separated):</label>
+      <input type="text" id="additionalToppings">
+    </div>
+  </div>
+
+  <!-- Button to create the hamburger -->
+  <button onclick="createHamburger()">Create Hamburger</button>
+  
+  <!-- Paragraph to display the description -->
+  <p id="description"></p>
+
+</body>
+</html>

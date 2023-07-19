@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #20cf60;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  /* Styling for the container */
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #3a4f64;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgb(202, 234, 76);
+  }
+
+  /* Styling for each option */
+  .option {
+    margin-bottom: 15px;
+  }
+
+  /* Styling for labels */
+  .option label {
+    display: inline-block;
+    width: 150px;
+    font-weight: bold;
+  }
+
+  /* Styling for input fields */
+  .option input[type="text"],
+  .option input[type="number"] {
+    padding: 5px;
+    width: 300px;
+    border-radius: 4px;
+    border: 1px solid #b230a7;
+    box-sizing: border-box;
+  }
+
+  /* Styling for number input field */
+  .option input[type="number"] {
+    width: 70px;
+  }
+
+  /* Styling for input field focus */
+  .option input[type="text"]:focus,
+  .option input[type="number"]:focus {
+    outline: none;
+    border-color: #17b51c;
+  }
+
+  /* Styling for the button */
+  button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #3fb142;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  /* Styling for the result paragraph */
+  p {
+    text-align: center;
+    font-size: 18px;
+  }
+
+  /* Styling for the image container */
+  .image-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  /* Styling for the image */
+  .image-container img {
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
+  }
